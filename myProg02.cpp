@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 	string line = "";
 	
 	if (in.fail()) {
-		cout << "Opening file failed" << endl;
+		cerr << "Opening file failed" << endl;
 		return 0;
 	}
 	int Count = 0;
